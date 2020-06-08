@@ -31,7 +31,7 @@ Client Setting:
 
 1) Deploy the contract main.sol in the directory
 
-2) Change the contract address in the client file
+2) Change the contract address in the client file as well as node address with websocket url
 
 3) Change the no of threads in the client which I set to 10000. Its quite high which i got by changing ulimit parameter in my linux machine. To replicate the scenario its better to set as 10000
 
