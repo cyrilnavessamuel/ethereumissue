@@ -20,9 +20,10 @@ I tested in Private Network Proof of Authority Clique but I guess this should be
 
 5) Gas Price is set to 1 to accept txs at this prices since client sends txs at this price
 
-4) Other settings is normal, I had block period 2
+6) Other settings is normal, I had block period 2
 
-5)My RPC mode of sending transaction to geth client is via websocket, so please enable it in geth options
+7) Mode of sending transaction to geth client is via websocket, so please enable it in geth options
+
 -------------------------------------------------------------------------------------------------------------------
 
 Client Setting:
@@ -49,6 +50,8 @@ pip install websocket_client
 pip install typing-extensions
 
 Then execute python3 client.py to start the client execution
+
+---------------------------------------------------------------------------------------------------------------------
 
 Behaviour:
 ===========
